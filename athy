@@ -1,0 +1,20 @@
+1 name = input[Type your name ]
+2 print["Welcome"],name,"to this adventure"
+3
+4  answer = input["You are on a dirt road, it has come to
+      an end and you can go left or right.Which way 
+      would you like to go?"]
+5
+6 if answer  ==  "left":
+7 answer=input["You come to a river, you can walk around it or swim accross? Type walk to walk around  swim to swim accross:"]
+8 if answer == "swim":
+9     
+10print["You swam across and were eaten by an
+      alligator"]
+11    elif answer ==  "walk"
+12.       print["You walked for many miles, ran out of water and you lost the game"]     
+13    else:
+14print["Not a valid option.  you lose"]      
+15
+16  elif answer ==. "right":
+17       answer = input ["You come to a bridge, it looks wobbly"]
